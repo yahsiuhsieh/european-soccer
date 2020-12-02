@@ -3,7 +3,7 @@
 Data Analysis and Machine Learning with Kaggle European Soccer Database
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/arthur960304/european_soccer/blob/main/dataset-cover.jpg">
+  <img width="650" height="200" src="https://github.com/arthur960304/european_soccer/blob/main/dataset-cover.jpg">
 </p>
 
 ## Getting Started
@@ -46,11 +46,11 @@ These instructions will get you a copy of the project up and running on your loc
 └── README.md
 ```
 
-## Tests
+## How to Run
 
 There are two ways you can do to get the results.
 
-1. Directly run the jupyter notebook (suggested)
+1. Directly run the jupyter notebook (recommended)
 2. Run the scripts (See section [About the scripts](#about-the-scripts) to get more info)
 
 ### About the scripts
