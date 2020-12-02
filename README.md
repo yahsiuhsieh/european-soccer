@@ -25,25 +25,38 @@ These instructions will get you a copy of the project up and running on your loc
 * pandas >= 1.0.5
 
 ## Code Organization
+
 ```
 .
-├── src                     # Python scripts
-│   ├── value_iteration.py  # VI algorithm
-│   ├── policy_iteration.py # PI algorithm
-│   ├── q_learning.py       # Q learning algorithm
-│   └── utils.py            # Utility sets
-├── european_soccer.ipynb   # Visualization Results
+├── src                         # Python scripts
+│   ├── prediction              # Prediction scripts
+│   │   ├── utils.py            # Utility set for prediction
+│   │   ├── sklearn_test.py     # Script for testing sklearn model
+│   │   ├── models.py           # Define PyTorch objects
+│   │   └── soccernet.py        # Neural network training and prediction
+│   ├── visualization           # Visualization scripts
+│   │   ├── pca_kmeans.py       # Perform PCA and Kmeans to the data
+│   │   ├── visual_utils.py     # Utility set for visualization
+│   └── └── visual.py           # Data visualization script
+├── european_soccer.ipynb       # Notebook showing all results
 └── README.md
 ```
 
 ## Tests
 
-There are 3 methods you can try, namely policy iteration, value iteration, and Q learning, with corresponding file name.
+There are two ways you can do to get the results.
 
-ex. if you want to try policy iteration, just do
-```
-python policy_iteration.py
-```
+1. Directly run the jupyter notebook (suggested)
+2. Run the scripts (See [About the scripts](#about-the-scripts) to get more info)
+
+### About the scripts
+
+There are four files you can run
+
+* run [sklearn_test.py]() to test the result of sklearn model
+* run [soccernet.py]() to train and test the neural network
+* run [pca_kmeans.py]() to see how PCA and KMeans perform on this dataset
+* run [visual.py]() to see the basic data analysis
 
 ## Results
 
