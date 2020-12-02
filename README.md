@@ -1,10 +1,10 @@
 # European Soccer
 
+Data Analysis and Machine Learning with Kaggle European Soccer Database
+
 <p align="center">
   <img width="600" height="200" src="https://github.com/arthur960304/european_soccer/blob/main/dataset-cover.jpg">
 </p>
-
-Data Analysis and Machine Learning with Kaggle European Soccer Database
 
 ## Getting Started
 
