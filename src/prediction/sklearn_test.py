@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     # get FIFA data
     matches = matches.dropna(subset=cols)[cols]
-    fifa_data = get_FIFA(matches, player_attributes, load_data=True)
+    fifa_data = get_FIFA(matches, player_attributes, load_data=False)
     fifa_data = fifa_data.dropna().select_dtypes(["number"])
 
     # get label
