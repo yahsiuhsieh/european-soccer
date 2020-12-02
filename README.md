@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 There are two ways you can do to get the results.
 
-1. Directly run the jupyter notebook (recommended)
+1. Directly run the jupyter notebook (**recommended**)
 2. Run the scripts (See section [About the scripts](#about-the-scripts) to get more info)
 
 ### About the scripts
