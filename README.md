@@ -47,16 +47,16 @@ These instructions will get you a copy of the project up and running on your loc
 There are two ways you can do to get the results.
 
 1. Directly run the jupyter notebook (suggested)
-2. Run the scripts (See [About the scripts](#about-the-scripts) to get more info)
+2. Run the scripts (See section [About the scripts](#about-the-scripts) to get more info)
 
 ### About the scripts
 
 There are four files you can run
 
-* run [sklearn_test.py]() to test the result of sklearn model
-* run [soccernet.py]() to train and test the neural network
-* run [pca_kmeans.py]() to see how PCA and KMeans perform on this dataset
-* run [visual.py]() to see the basic data analysis
+* run [sklearn_test.py](https://github.com/arthur960304/european_soccer/blob/main/src/prediction/sklearn_test.py) to test the result of sklearn model
+* run [soccernet.py](https://github.com/arthur960304/european_soccer/blob/main/src/prediction/soccernet.py) to train and test the neural network
+* run [pca_kmeans.py](https://github.com/arthur960304/european_soccer/blob/main/src/visualization/pca_kmeans.py) to see how PCA and KMeans perform on this dataset
+* run [visual.py](https://github.com/arthur960304/european_soccer/blob/main/src/visualization/visual.py) to see the basic data analysis
 
 ## Results
 
